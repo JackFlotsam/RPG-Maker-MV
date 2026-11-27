@@ -1,0 +1,4 @@
+//Used this as ref: https://vrykerion.com/2017/11/27/d20-style-combat-in-rpg-maker/
+Math.randomInt(100) + 1 <= b.def ? damage : 0 //Roll 1d100 for attack
+Math.randomInt(100) + 1 <= b.def ? Math.randomInt(10) + 1 : 0 //Roll d100 against enemy's defense (dodge)
+Math.randomInt(100) + 1 <= b.def ? 1 : 0 //1 Damage test
